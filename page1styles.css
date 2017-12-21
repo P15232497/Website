@@ -1,8 +1,11 @@
-body {
-    background-color: grey;
-}
+
 
 h1 {
     color: white;
     text-align: center;
 }
+•{margin: 0px; padding: 0px;}
+body{background: grey;}
+#header{width:100%};height: 80px;background: #333;}
+#navbar{width:1000px;height: 80px;border:1px solid white;}
+#navbar>li{width:200px;}

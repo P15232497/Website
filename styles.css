@@ -8,8 +8,7 @@ h1 {
 }
 
 
-@import url('https://fonts.googleleapis.com/css?family=Raleway');
-@import url('https://fonts.googleleapis.com/css?family=oswald');
+
 html, body{
   margin: 0;
   padding: 0;
@@ -27,7 +26,7 @@ html, body{
 }
 .intro .inner {
   display: table-cell;
-  vertcial-align: middle;
+  vertical-align: middle;
   width: 100%;
   max-width: none;
 }
