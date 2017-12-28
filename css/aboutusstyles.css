@@ -450,3 +450,12 @@ text-decoration: none;}
                 li>a:hover,
                 li>a:focus{background: red; color:black;}
                 }
+                #map {
+                        height: 5px;
+                        width: 1%;
+                        padding: 25em;
+                        display: table;
+                        margin: 0 auto;
+                        margin-top: 800px;
+
+                      }
