@@ -19,7 +19,7 @@ html, body{
   height: 100%;
   width: 100%;
   margin: auto;
-  background: url(images/img2.jpg);
+  background: url(../Images/img2.jpg);
   display: table;
   top: 0;
   background-size: cover;
