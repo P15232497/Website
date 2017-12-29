@@ -2,7 +2,6 @@
 .title{
 margin-top: 60px;
 }
-
 h1 {
     color: white;
     font-size: 40px;
@@ -10,7 +9,6 @@ h1 {
     text-align: center;
     text-decoration: underline;
 }
-
 *{margin: 0px; padding: 0px;}
 body{background: grey;}
 #header{width:100%;
@@ -31,46 +29,18 @@ color: white;
 line-height: 80px;
 text-align: center;
 font-family: 'railway' , sans-serif;
-font-size: 9px;
+font-size: 8px;
 text-decoration: none;}
-.css-slider {
-  position: relative;
-  margin-top: 60px;
-}
-.placeHolder{
-  margin-top: 60px;
-  width: 100%;
-  visibility: hidden;
-}
-.layer1, .layer2, .layer3 {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.layer1 {
-  background-image: url(../Images/css-slider/slide1.jpg);
-}
-.layer2 {
-  background-image: url(../Images/css-slider/slide2.jpg);
-  animation: layer2Anim 10s infinite;
-}
-.layer3 {
-  background-image: url(../Images/css-slider/slide3.jpg);
-  animation: layer3Anim 10s infinite;
-}
-                     /*-------KEYFRAMES-------*/
-@keyframes layer2anim {
-  0%{
-    top: 5px;
+
+img.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 250px;
+    height: 300px;
+    margin-top: 40px;
   }
-  50%{
-    top: 100px;
-}
-}
+
 
 @media screen and (min-width: 400px)
 {
@@ -83,7 +53,7 @@ text-decoration: none;}
   #header{width:100%;
     height: 80px;
     background: black;}
-  #navbar{width:420px;
+  #navbar{width:410px;
     height: 80px;
     float: left;
     box-shadow: 0px 2px 4px white;
@@ -104,66 +74,6 @@ text-decoration: none;}
   li>a:hover,
   li>a:focus{background: red; color:black;}
   }
-  /* Three columns side by side */
-.column {
-    margin-top: 40px;
-    float: left;
-    width: 31.6%;
-    margin-bottom: 16px;
-    padding: 0 10px;
-}
-h2 {
-    color: white;
-    font-size: 15px;
-    font-family: "verdana";
-    text-align: center;
-}
-
-/* Display the columns below each other instead of side by side on small screens */
-@media (max-width: 650px) {
-    .column {
-        width: 100%;
-        display: block;
-    }
-}
-
-/* Added shadows to create a card effect */
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-/* Some left and right padding inside the container */
-.container {
-    padding: 0 16px;
-}
-
-/* Clear floats */
-.container::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-
-.button {
-    border: solid white;
-    outline: 0;
-    display: inline-block;
-    padding: 9px;
-    color: white;
-    background-color: black;
-    text-align: center;
-    cursor: pointer;
-    width: 93%;
-    margin-top: 30px;
-    text-decoration: none;
-}
-
-.button:hover {
-    background-color: red;
-}
-
-
   @media screen and (min-width: 500px)
   {
     h1 {
@@ -261,6 +171,7 @@ h2 {
       li>a:hover,
       li>a:focus{background: red; color:black;}
       }
+
 @media screen and (min-width: 800px)
 {
   h1 {
@@ -549,66 +460,3 @@ h2 {
                 li>a:hover,
                 li>a:focus{background: red; color:black;}
                 }
-                            /*-------KEYFRAMES-------*/
-                            @keyframes layer2Anim{
-                                0%{left:-100%;}
-                                17%{left:-100%;}
-                                33%{left:0;}
-                                50%{left:0;}
-                                67%{left:-100%;}
-                                100%{left:-100%;}
-                            }
-                            @keyframes layer3Anim{
-                                0%{left:100%;}
-                                50%{left:100%;}
-                                67%{left:0;}
-                                83%{left:0;}
-                                100%{left:100%}
-                            }
-
-.css-slider {
-    position: relative;
-    margin-top: 60px;
-}
-.placeHolder {
-    width: 100%;
-    visibility: hidden;
-
-}
-.layer1, .layer2, .layer3 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.layer1 {
-  background-image: url(../Images/css-slider/slide1.jpg);
-}
-.layer2 {
-  background-image: url(../Images/css-slider/slide2.jpg);
-  animation: layer2Anim 10s infinite;
-}
-.layer3 {
-  background-image: url(../Images/css-slider/slide3.jpg);
-  animation: layer3Anim 10s infinite;
-}
-.slideOverlay {
-    background-image: url(../Images/css-slider/Overlay.png);
-    background-attachment: fixed;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-}
-.slideOverlay p {
-    position: relative;
-    font-size: 6vw;
-    color: #fff;
-    text-shadow: 3px 3px 6px #000;
-    text-align: center;
-    top: 30%;
-}
