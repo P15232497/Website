@@ -9,6 +9,13 @@ h1 {
     text-align: center;
     text-decoration: underline;
 }
+h2 {
+    color: white;
+    font-size: 20px;
+    font-family: "verdana";
+    text-align: center;
+    text-decoration: underline;
+}
 *{margin: 0px; padding: 0px;}
 body{background: grey;}
 #header{width:100%;
@@ -31,6 +38,30 @@ text-align: center;
 font-family: 'railway' , sans-serif;
 font-size: 8px;
 text-decoration: none;}
+
+p{
+  color: white;
+  margin-top: 40px;
+  font-family: verdana;
+  text-align: center;
+  width: 50%;
+  display: table;
+  margin: 0 auto;
+}
+li{
+  list-style-type: none;
+}
+
+
+#map {
+        height: 5px;
+        width: 1%;
+        padding: 25em;
+        display: table;
+        margin: 0 auto;
+        margin-top: 100px;
+      }
+
 
 @media screen and (min-width: 400px)
 {
@@ -450,12 +481,3 @@ text-decoration: none;}
                 li>a:hover,
                 li>a:focus{background: red; color:black;}
                 }
-
-                #map {
-                        height: 5px;
-                        width: 1%;
-                        padding: 25em;
-                        display: table;
-                        margin: 0 auto;
-                        margin-top: 400px;
-                      }
