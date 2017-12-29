@@ -35,6 +35,7 @@ font-size: 9px;
 text-decoration: none;}
 .css-slider {
   position: relative;
+  margin-top: 60px;
 }
 .placeHolder{
   margin-top: 60px;
@@ -70,39 +71,7 @@ text-decoration: none;}
     top: 100px;
 }
 }
-.movie1{
-  float: left;
-  margin-top: 60px;
-}
-.movie1 img{
-  height: 120px;
-  width: 110px;
-}
-.movie2{
-  display: table;
-  margin: 0 auto;
-  margin-top: 60px;
-}
-.movie2 img{
-  height: 120px;
-  width: 110px;
-}
-.movie3{
-  float: right;
-  margin-top: 60px;
-}
-.movie3 img{
-  height: 120px;
-  width: 110px;
-}
-.flex-container
-      {
-      	display: flex;
-      }
-      .flex-container>div {
-        padding:10px;
-        font-size: 12px;
-      }
+
 @media screen and (min-width: 400px)
 {
   h1 {
@@ -135,6 +104,65 @@ text-decoration: none;}
   li>a:hover,
   li>a:focus{background: red; color:black;}
   }
+  /* Three columns side by side */
+.column {
+    margin-top: 40px;
+    float: left;
+    width: 31.6%;
+    margin-bottom: 16px;
+    padding: 0 10px;
+}
+h2 {
+    color: white;
+    font-size: 15px;
+    font-family: "verdana";
+    text-align: center;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* Added shadows to create a card effect */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+    padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.button {
+    border: solid white;
+    outline: 0;
+    display: inline-block;
+    padding: 9px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 93%;
+    margin-top: 30px;
+}
+
+.button:hover {
+    background-color: red;
+}
+
+
   @media screen and (min-width: 500px)
   {
     h1 {
@@ -232,7 +260,6 @@ text-decoration: none;}
       li>a:hover,
       li>a:focus{background: red; color:black;}
       }
-
 @media screen and (min-width: 800px)
 {
   h1 {
@@ -424,38 +451,6 @@ text-decoration: none;}
             text-decoration: none;}
             li>a:hover,
             li>a:focus{background: red; color:black;}
-            .movie1{
-              float: left;
-              margin-top: 60px;
-            }
-            .movie1 img{
-              height: 320px;
-              width: 280px;
-            }
-            .movie2{
-              display: table;
-              margin: 0 auto;
-              margin-top: 60px;
-            }
-            .movie2 img{
-              height: 320px;
-              width: 280px;
-            }
-            .movie3{
-              float: right;
-              margin-top: 60px;
-            }
-            .movie3 img{
-              height: 320px;
-              width: 280px;
-            }
-            .flex-container
-                  {
-                  	display: flex;
-                  }
-                  .flex-container>div {
-                    padding:10px;
-                    font-size: 12px;
             }
           @media screen and (min-width: 1300px)
           {
