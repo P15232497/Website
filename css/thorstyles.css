@@ -40,6 +40,13 @@ img.sticky {
     height: 300px;
     margin-top: 40px;
   }
+  .thor img{
+    display: table;
+    margin: 0 auto;
+    width: 600px;
+    height: 650px;
+    margin-top: 40px;
+  }
 
 
 @media screen and (min-width: 400px)
