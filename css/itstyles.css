@@ -31,7 +31,7 @@ text-align: center;
 font-family: 'railway' , sans-serif;
 font-size: 8px;
 text-decoration: none;}
-
+/*image styling*/
 .it img{
     display: table;
     margin: 0 auto;
@@ -45,7 +45,7 @@ p{
   font-family: verdana;
   text-align: inherit;
 }
-
+/*breakpoints*/
 @media screen and (min-width: 400px)
 {
   h1 {

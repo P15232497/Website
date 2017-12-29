@@ -2,6 +2,7 @@
 .title{
 margin-top: 60px;
 }
+
 h1 {
     color: white;
     font-size: 40px;
@@ -16,6 +17,7 @@ h2 {
     text-align: center;
     text-decoration: underline;
 }
+/*Navbar styling for mobile first*/
 *{margin: 0px; padding: 0px;}
 body{background: grey;}
 #header{width:100%;
@@ -52,7 +54,7 @@ li{
   list-style-type: none;
 }
 
-
+/*google map styling for mobile first*/
 #map {
         height: 5px;
         width: 1%;
@@ -62,7 +64,7 @@ li{
         margin-top: 100px;
       }
 
-
+/*all breakpoints scalling up to desktop size*/
 @media screen and (min-width: 400px)
 {
   h1 {

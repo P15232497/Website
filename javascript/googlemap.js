@@ -1,3 +1,4 @@
+// javasript for google map on about us page
 "use strict";
 
 function initMap() {
@@ -10,7 +11,7 @@ function initMap() {
       center: Cineworld
     });
 
-  // these set different markers you want to show on your map
+  // sets the different markers that show on the map
   let markerCineworld = new google.maps.Marker({
     position: Cineworld,
     map: map,
